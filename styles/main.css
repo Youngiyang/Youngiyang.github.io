@@ -539,7 +539,8 @@ a {
   padding-bottom: 10rem;
   width: 100%;
   background: #BFBAA0;
-  border-top: 1px solid #BFBAA0
+  border-top: 1px solid #BFBAA0;
+  color:#fff;
 }
 
 @media (max-width:500px) {
@@ -748,7 +749,7 @@ a {
   margin-top: 2rem;
   width: 120px;
   height: 3px;
-  background: #222;
+  background: #fff;
   transition-delay: .2s;
   content: ""
 }
@@ -853,8 +854,9 @@ a {
 .works-content-button-link {
   padding: 1rem 0 .8rem;
   display: block;
-  border: 3px solid #020202;
-  font-weight: 700
+  border: 3px solid #fff;
+  font-weight: 700;
+  color: #fff;
 }
 
 .works-content-button-link:after {
@@ -1492,6 +1494,7 @@ margin-top: 2rem;
 
 }
 .self-introduction-content{
+
   width: 50%;
   padding-left: 25%;
   text-align: center;
