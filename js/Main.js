@@ -3900,7 +3900,7 @@ ImagePreload = function() {
 };
 ImagePreload.prototype = {
   _init: function() {
-    this._preloadImages.push("images/bg-folio.png", "images/folio-04.jpg", "images/folio-05.jpg",  "images/folio-07.jpg", "images/folio-08.jpg"),
+    this._preloadImages.push("images/bg-folio.png", "images/folio-04.jpg", "images/folio-05.jpg",  "images/folio-07.jpg", "images/folio-08.jpg","images/folio-09.jpg","images/folio-10.jpg","images/folio-11.jpg"),
     this._update()
   },
   _update: function() {

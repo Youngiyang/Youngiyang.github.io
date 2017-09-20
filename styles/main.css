@@ -538,8 +538,8 @@ a {
 .works {
   padding-bottom: 10rem;
   width: 100%;
-  background: #f5f5f5;
-  border-top: 1px solid #f9f9f9
+  background: #BFBAA0;
+  border-top: 1px solid #BFBAA0
 }
 
 @media (max-width:500px) {
@@ -550,7 +550,7 @@ a {
 
 .works-content {
   margin: 0 auto;
-  width: 1024px
+  width: 1080px
 }
 
 @media (max-width:1104px) {
@@ -876,7 +876,7 @@ a {
   width: 9rem;
   height: 9rem;
   text-align: center;
-  background: #1abc9c;
+  background: #FBBD42;
   color: #fff;
   font-size: 2rem;
   border-radius: 70px;
@@ -938,8 +938,7 @@ a {
 }
 
 .about {
-  padding-bottom: 4rem;
-  background: #f9f9f9;
+  background: #fff;
   border-top: 1px solid #fff
 }
 
@@ -1482,4 +1481,92 @@ margin-top: 2rem;
 }
 .friendly-link > ul > li {
   margin: 5px 0;
+}
+.wechat-items {
+  float: right;
+}
+.self-introduction {
+  background-color: #F2C938;
+  border-top: 1px solid #F2C938;
+  text-align: center
+
+}
+.self-introduction-content{
+  width: 50%;
+  padding-left: 25%;
+  text-align: center;
+  padding-bottom:10rem;
+}
+.skill {
+  background-color: #81A4B0;
+  border-top: 1px solid #81A4B0;
+  text-align: center;
+  padding-bottom:10rem;
+}
+.skill-content {
+  width: 80%;
+  padding-left: 10%;
+  text-align: center
+}
+/* 圆形进度条百分比 */
+@-webkit-keyframes load {
+  0% {
+    stroke-dashoffset: 0;
+  }
+}
+@keyframes load {
+  0% {
+    stroke-dashoffset: 0;
+  }
+}
+.progress {
+  position: relative;
+  display: inline-block;
+  padding: 0;
+  text-align: center;
+}
+.progress > li {
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  color: #fff;
+  font-family: Lato;
+  font-weight: 100;
+  margin: 2rem;
+}
+.progress > li:before {
+  content: attr(data-name);
+  position: absolute;
+  width: 100%;
+  bottom: -2rem;
+  font-weight: 400;
+}
+.progress > li:after {
+  content: attr(data-percent);
+  position: absolute;
+  width: 100%;
+  top: 3.7rem;
+  left: 0;
+  font-size: 2rem;
+  text-align: center;
+}
+.progress svg {
+  width: 10rem;
+  height: 10rem;
+}
+.progress svg:nth-child(2) {
+  position: absolute;
+  left: 0;
+  top: 0;
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+}
+.progress svg:nth-child(2) path {
+  fill: none;
+  stroke-width: 25;
+  stroke-dasharray: 629;
+  stroke: #81A4B0;
+  opacity: .9;
+  -webkit-animation: load 10s;
+          animation: load 10s;
 }
